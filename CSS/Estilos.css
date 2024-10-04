@@ -1,3 +1,31 @@
 p {
-    color: darkgreen;
+    color: rgb(247, 238, 238);
+}
+
+h1{
+    color: white;
+}
+
+
+.caja{
+    width: auto;
+    height: auto;
+    padding: auto;
+    margin: auto;
+    border: 0px solid none;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item{
+    width: 50%;
+    height: 50%;
+}
+
+body{
+    background-color: rgb(14, 39, 63);
 }
