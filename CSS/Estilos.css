@@ -29,3 +29,9 @@ h1{
 body{
     background-color: rgb(14, 39, 63);
 }
+
+@media (max-width: 600px){
+    .contenedor{
+      flex-direction: column;
+    }
+}
